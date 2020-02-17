@@ -5,6 +5,7 @@
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+  grid-gap: 20px;
   text-align: center;
 }
 
@@ -38,7 +39,6 @@
   font-size: 100px;
   font-weight: bold;
   letter-spacing: -1px;
-  /* line-height: .5px; */
   margin: 0;
   text-shadow: #ededed 3px 2px 1px;
 }
