@@ -12,7 +12,8 @@ export default function Gallery() {
              key={stack.id}
              id={stack.id} 
              name={stack.name} 
-             cover={stack.cover} />
+             cover={stack.cover} 
+             videoId={stack.videoId} />
           ))
         }
       </div>

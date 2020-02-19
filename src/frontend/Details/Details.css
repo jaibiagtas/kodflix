@@ -4,7 +4,13 @@
 
 .Details .container-details {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 20px;
-    padding: 30px
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    text-align: start;
+    padding: 15px;
 }
+
+.Videobox {
+    align-content: center;
+}
+
