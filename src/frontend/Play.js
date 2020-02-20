@@ -4,7 +4,9 @@ import './Play.css';
 export default function Play(props) {
     return (
         <div>
-                <iframe src={`https://www.youtube.com/embed/${props.videoId}`}></iframe>
+            <div className='Videowrapper'>
+                <iframe width='560' height='320' align='middle' src={`https://www.youtube.com/embed/${props.videoId}`}></iframe>
+            </div>
         </div>
     );
 }

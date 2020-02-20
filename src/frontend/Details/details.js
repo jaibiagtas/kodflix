@@ -25,18 +25,26 @@ export default class details extends React.Component {
             return <Redirect to='/not-found' />
         } else {
             return (
-                <div className='Details'>
-                    <h1>{this.state.gallery.name}</h1>
-                    <div className='container-details'>
-                    <Play videoId={this.state.gallery.videoId} />
-                        <div>{this.state.gallery.details}</div>
+                <div className='Containerdetails'>
+                    <div className='Section'>
+                        <h1>{this.state.gallery.name}</h1>
                         <div>
                             <img
                                 src={this.state.gallery.cover}
                                 alt={this.state.gallery.name} />
                         </div>
                     </div>
-                    <button><Link to='/'>Back to home page</Link></button>
+                    <div className='Section two'>
+                        <br></br><br></br>
+                        <div>{this.state.gallery.details}</div>
+                        <br></br><br></br>
+                        <div className='Videobox'>
+                            <Play videoId={this.state.gallery.videoId} />
+                        </div>
+                        <br></br> <br></br>
+                        <button><Link to='/'>Back to home page</Link></button>
+                    </div>
+
                 </div >
             );
         }

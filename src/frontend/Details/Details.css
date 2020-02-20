@@ -1,16 +1,32 @@
-.Details .content {
-    display: flex;
-}
-
+/* 
 .Details .container-details {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 25px;
     text-align: start;
     padding: 15px;
-}
+} */
 
 .Videobox {
     align-content: center;
 }
+
+.Containerdetails {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    grid-column-gap: 20px;
+    padding: 0 20px;
+}
+
+.two {
+    display: grid;
+    grid-template-rows: 4;
+    align-content: right;
+    vertical-align: middle;
+    text-align: start;
+    grid-gap: 20px;
+    padding-left: 20px;
+}
+
+
 
