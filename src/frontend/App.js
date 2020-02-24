@@ -3,7 +3,7 @@ import Gallery from './gallery';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import details from './Details/details';
 import NotFound from './NotFound'
-
+import Toolbar from './Toolbar/Toolbar';
 
 import './App.css';
 
@@ -12,6 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <h1 className='maintitle'>Kodflix.</h1>
+        <Toolbar></Toolbar>
         <Switch>
           <Route exact path='/' component={Gallery} />
           <Route exact path='/not-found' component={NotFound} />
@@ -19,6 +20,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+    
   );
 }
 

@@ -4,6 +4,7 @@ import getGallery from '../gallery-get';
 import './Details.css';
 import Play from '../Play';
 
+
 export default class details extends React.Component {
 
     constructor() {
@@ -37,7 +38,6 @@ export default class details extends React.Component {
                         <br></br><br></br>
                         <Play videoId={this.state.gallery.videoId} />
                         <div className='footer'>
-                            <button><Link to='/'>Back to home page</Link></button>
                         </div>
                     </div>
                 </div>
