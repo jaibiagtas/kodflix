@@ -3,7 +3,7 @@ import Gallery from './gallery';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import details from './Details/details';
 import NotFound from './NotFound'
-import Toolbar from './Toolbar/Toolbar';
+import NavBar from './NavBar/NavBar';
 
 import './App.css';
 
@@ -11,9 +11,10 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <NavBar />
+
       <h1 className='maintitle'>Kodflix</h1>
-      <Toolbar></Toolbar>
-      <br></br>
+      <br></br><br></br>
         <Switch>
           <Route exact path='/' component={Gallery} />
           <Route exact path='/not-found' component={NotFound} />
