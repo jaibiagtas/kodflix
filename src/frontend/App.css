@@ -34,7 +34,9 @@
 }
 
 .maintitle {
+  display: inline-block;
   color: #E50914;
+  text-align: left;
   font-family:'Helvetica Neue', sans-serif;
   font-size: 65px;
   font-weight: bold;

@@ -11,8 +11,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1 className='maintitle'>Kodflix.</h1>
-        <Toolbar></Toolbar>
+      <h1 className='maintitle'>Kodflix</h1>
+      <Toolbar></Toolbar>
+      <br></br>
         <Switch>
           <Route exact path='/' component={Gallery} />
           <Route exact path='/not-found' component={NotFound} />
