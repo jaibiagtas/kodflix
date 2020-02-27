@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavBar.css';
-import hamburger from '../images/hamburger.png';
+import hamburger from '../images/menured.png';
 
 export default function NavBar() {
     const [menuDisplay, setMenuDisplay] = React.useState
