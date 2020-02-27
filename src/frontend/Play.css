@@ -1,4 +1,6 @@
 .Videowrapper {
     display: flex;
+    padding-top: 50px;
+    justify-content: flex-start;
 }
 

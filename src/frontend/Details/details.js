@@ -27,7 +27,7 @@ export default class details extends React.Component {
         } else {
             return (
                 <div className='wrapper'>
-                    <div className='header'><h1>{this.state.gallery.name}</h1></div>
+                    <div className='header'><h2>{this.state.gallery.name}</h2></div>
                     <div className='content-one'>
                         <img
                             src={this.state.gallery.cover}
@@ -35,7 +35,6 @@ export default class details extends React.Component {
                     </div>
                     <div className='content-two'>
                         <div>{this.state.gallery.details}</div>
-                        <br></br><br></br>
                         <Play videoId={this.state.gallery.videoId} />
                         <div className='footer'>
                         </div>

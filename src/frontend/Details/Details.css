@@ -10,12 +10,14 @@
 .content-one {
     grid-area: main;
     grid-gap: 10px;
+    padding: 10px;
 }
 
 .content-two {
     grid-area: details;
     grid-gap: 25px;
     text-align: left;
+    padding: 10px;    
 }
 
 @media (min-width: 600px) {
