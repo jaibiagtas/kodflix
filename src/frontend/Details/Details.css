@@ -17,7 +17,12 @@
     grid-area: details;
     grid-gap: 25px;
     text-align: left;
-    padding: 10px;    
+    padding: 10px;
+    color: whitesmoke;    
+}
+
+h2 {
+    color: whitesmoke;
 }
 
 @media (min-width: 600px) {
