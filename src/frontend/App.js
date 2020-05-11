@@ -13,7 +13,7 @@ function App() {
       <div className="App">
         <NavBar />
 
-      <h1 className='maintitle'>Kodflix</h1>
+      <h1 className='maintitle'>Kodeflix</h1>
       <br></br><br></br>
         <Switch>
           <Route exact path='/' component={Gallery} />
