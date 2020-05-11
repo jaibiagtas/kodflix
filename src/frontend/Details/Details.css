@@ -23,6 +23,7 @@
 
 h2 {
     color: whitesmoke;
+    font-weight: bolder;
 }
 
 @media (min-width: 600px) {
